@@ -14,7 +14,6 @@
     },
     "permissions": [
         "notifications",
-        "background",
         "storage",
         "alarms",
         "https://*.pagerduty.com/api/v1/*",
@@ -28,9 +27,7 @@
         "scripts": [
             "lib/pd-api.js",
             "background/pd-notifier.js"
-        ],
-        "persistent": true
-    },
+        ]    },
     "browser_action": {
       "default_icon": "images/browser-icon-32.png"
     }
