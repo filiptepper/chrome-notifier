@@ -4,7 +4,7 @@ function PDAPI(apiKey, version = 2)
     // Members
     var self       = this;   // Self-reference
     self.apiKey    = apiKey; // API key used for requests.
-    self.userAgent = "pd-chrome-notifier-" + chrome.app.getDetails().version; // Will be in the X-Requested-With header of requests.
+    self.userAgent = "pd-firefox-notifier";
 
     // Wrapper for generic XMLHttpRequest stuff
     this.prepareRequest = function prepareRequest(method, url)
